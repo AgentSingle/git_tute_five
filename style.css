@@ -12,6 +12,22 @@ body{
     justify-content: center;
 }
 
+nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 50px;
+    width: 100vw;
+    background-color: blue;
+    display: flex;
+    float: left;
+    align-items: center;
+}
+nav h1{
+    background-color: transparent;
+    color: white;
+}
+
 .Test_Box{
     height: 400px;
     width: 400px;
